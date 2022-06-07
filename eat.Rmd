@@ -39,6 +39,9 @@ barchartGC(~race + eatout,data=mydata, type="percent")
 ```
 
 
+Based on the data that shows both the percentage and the frequency, it looks like white people tend to eat out more than black and others. In the frequency graph, black and others are very much close to each other with the data, but from the percentage graph it looks like black people eat out more than other.
+
+
 
 
 
