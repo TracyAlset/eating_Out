@@ -52,5 +52,18 @@ colPerc(table1)
 The first table shows how many people( from each race in a percentage form) are eating out or not(eating out or not from the race).for example: for white 83.13% of the whites eat out and 16.87% don't. And the first table shows that the whites are the ones who eat out the most. the  percentage of the blacks who eat out(out of the black) is less than the one for others.
 the second table shows what the percentage of each race is out of eating out or not, meaning 81.69% of the people who eat out are white ( and this is the highest percentage), then the blacks then the others.
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+```
+
+the p value is so low and that doesn't show a significant difference between the different races.
+
+```{r}
+fisherXY(mydata$race,mydata$eatout, printAll = TRUE)
+```
+
+based on these results , the p values for white~black and white~other is higher than the one for black~other, showing that there is an actual reason behind the big difference between whites and both the blacks and others, and this makes sense because the life style for the whites is better than the blacks and the others. and the very low p value between black and others show that there is no actual diffenece ( reason for the difference in data between black and others), it is just random, and this also makes sense since they both have a similar life style.
+
 
 
