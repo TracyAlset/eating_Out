@@ -65,5 +65,6 @@ fisherXY(mydata$race,mydata$eatout, printAll = TRUE)
 
 based on these results , the p values for white~black and white~other is higher than the one for black~other, showing that there is an actual reason behind the big difference between whites and both the blacks and others, and this makes sense because the life style for the whites is better than the blacks and the others. and the very low p value between black and others show that there is no actual diffenece ( reason for the difference in data between black and others), it is just random, and this also makes sense since they both have a similar life style.
 
-
+Conclusion: 
+Based on the different types of data obtained, it looks like the whites eat out more than the blacks and the others, and this makes sense because they have a better lifestyle, whereas for both blacks and others the data was very similar because they both have a similar lifestyle.
 
